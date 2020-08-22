@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Reservings
+{% endblock %}
+
+{% block content %}
+    <h1>Your Reserved List</h1>
+    <table class="cart">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Place</th>
+                <th>Count</th>
+                <th>Remove</th>
+                <th>Unit Price</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in cart %}
+                {% with ad=item.ads %}
+                <tr>
+                    <td>
+                        <a href="{{ ad.get_absolute_url }}">
+                            <img src="{{ ad.image.url }}"
+                        </a>
+                    </td>
+                    <td>{{ ad.name }}</td>
+                    <td>
+                        <form action="{% url 'cart:cart_add' ad.id %}" method="post">
+                            <input type="submit" value="Update">
+                            {% csrf_token %}
+                        </form>
+                    </td>
+                    <td><a href="{% url 'cart:cart_remove' ad.id %}">Remove</a></td>
+                    <td class="num">${{ item.price }}</td>
+                    <td class="num">${{ item.total_price }}</td>
+                </tr>
+                {% endwith %}
+            {% endfor %}
+            <tr class="total">
+                <td>Total</td>
+                <td colspan="4"></td>
+                <td class="num">${{ cart.get_total_price }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="text-right">
+        <a href="{% url 'Advertisements:home' %}" class="button light">More Options</a>
+    </p>
+{% endblock %}

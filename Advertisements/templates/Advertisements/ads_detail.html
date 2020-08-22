@@ -1,0 +1,28 @@
+{% extends "Advertisements/base.html" %}
+{% load imagefit %}
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ object.user.profile.image.url |resize:'150x150,C'}}">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="{% url 'user-ads' object.user.username %}">{{ object.user }}</a>
+                <small class="text-muted">{{ object.start_date|date:"F d, Y" }}</small>
+                {% if object.user == user %}
+                    <div>
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'Advertisements-update' object.id %}">Update</a>
+                        <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'Advertisements-delete' object.id %}">Delete</a>
+                    </div>
+                {% endif %}
+            </div>
+            <h2 class="article-title">{{ object.title }}</h2>
+            <p class="article-content">{{ object.description }}</p>
+            <div class="col-md-2  col-md-pull-5">
+						<div id="product-imgs">
+							<div class="product-preview">
+								<img src="{{ object.image.url }}" alt="">
+							</div>
+						</div>
+					</div>
+        </div>
+    </article>
+{% endblock content %}

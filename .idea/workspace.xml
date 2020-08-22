@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2878de56-69b5-4e9a-bfcb-3174a7928f9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/final_prj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_prj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advertisements/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advertisements/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advertisements/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advertisements/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advertisements/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advertisements/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_prj/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WYn5P99GwFTtxvSKa95AoYeZo1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="final_prj" type="Python.DjangoServer" factoryName="Django server">
+      <module name="final_prj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2878de56-69b5-4e9a-bfcb-3174a7928f9d" name="Default Changelist" comment="" />
+      <created>1515314066671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515314066671</updated>
+      <workItem from="1515314075583" duration="1073000" />
+      <workItem from="1515752128344" duration="3124000" />
+      <workItem from="1516088530527" duration="6167000" />
+      <workItem from="1579335215415" duration="12687000" />
+      <workItem from="1579463834614" duration="4833000" />
+      <workItem from="1579593035993" duration="8635000" />
+      <workItem from="1580025554596" duration="8689000" />
+      <workItem from="1580976302821" duration="21308000" />
+      <workItem from="1581319374078" duration="701000" />
+      <workItem from="1581320236989" duration="84000" />
+      <workItem from="1583141816236" duration="70000" />
+      <workItem from="1583148513387" duration="24000" />
+      <workItem from="1586780555477" duration="1627000" />
+      <workItem from="1587210555095" duration="902000" />
+      <workItem from="1587308341859" duration="1748000" />
+      <workItem from="1588827466843" duration="1225000" />
+      <workItem from="1588831728419" duration="1889000" />
+      <workItem from="1588920923975" duration="628000" />
+      <workItem from="1589088806684" duration="1727000" />
+      <workItem from="1589259588574" duration="592000" />
+      <workItem from="1589268658887" duration="6274000" />
+      <workItem from="1589604992906" duration="3490000" />
+      <workItem from="1591520341417" duration="2419000" />
+      <workItem from="1591685040085" duration="2670000" />
+      <workItem from="1597152824994" duration="1969000" />
+      <workItem from="1597308275769" duration="4612000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
